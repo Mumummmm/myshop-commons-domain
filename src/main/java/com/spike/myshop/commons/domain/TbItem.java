@@ -6,6 +6,7 @@ import java.util.Date;
 
 @Table(name = "tb_item")
 public class TbItem implements Serializable {
+    private static final long serialVersionUID = 5292440152334444417L;
     /**
      * 商品id，同时也是商品编号
      */
